@@ -9,6 +9,4 @@ tags: [pandas, lambda, scraping, twitter]
 If you have anything to ask, please contact me clicking following link?
 
 
-You can hire me [here](https://www.fiverr.com/coderjs)
-
 Thank you
