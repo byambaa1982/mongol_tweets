@@ -16,9 +16,9 @@ with open("twitter_credentials.json", "r") as file:
     creds = json.load(file)
 
 
-auth = tw.OAuthHandler(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'])
+auth = tweepy.OAuthHandler(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'])
 auth.set_access_token(creds['ACCESS_TOKEN'], creds['ACCESS_SECRET'])
-api = tw.API(auth, wait_on_rate_limit=True)
+api = tweepy.API(auth, wait_on_rate_limit=True)
 
 
 def scraptweets(search_words, date_since, numTweets, numRuns):
