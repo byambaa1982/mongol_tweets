@@ -25,7 +25,7 @@ To use this project, you need to authenticate against the Google Cloud APIs. Fol
 ## Accessing Google Drive
 You can access your Google Drive files by mounting your Google Drive in Colab.
 
-python ```
+```python
 
 from google.colab import drive
 drive.mount('/content/gdrive', force_remount=True)
